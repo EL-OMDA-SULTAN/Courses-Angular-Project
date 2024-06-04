@@ -1,0 +1,107 @@
+header{
+  height: 50vh ;
+  color: white;
+  text-align: center;
+}
+
+header .row{
+  --bs-gutter-x: 0;
+  margin-top: calc(50vh  / 2);
+  transform: translateY(-50%);
+
+}
+
+header .typing{
+  font-size: 50px;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+header p{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+header .btn{
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 2px;
+  background-color: #1e4e75e7;
+  border: 2px solid white;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+header .btn:hover{
+  color: black;
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.search {
+height: 300px;
+margin-bottom: 50px;
+}
+.search .container{
+  background-color: #1e4e75ba;
+  height: 100%;
+  border-radius: 20px ;
+}
+
+.search .container h2{
+  padding-top: 50px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 2px;
+}
+.search .container input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  letter-spacing: 2px;
+}
+
+.search .container input:focus{
+  outline: none;
+}
+
+.search .container button{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 2px;
+  background-color: #1e4e75e7;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  padding: 10px 0;
+  /* margin-left: 10px; */
+}
+
+.search .container button:hover{
+  background-color: white;
+  color: black;
+}

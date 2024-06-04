@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+
+body{
+  background: linear-gradient(0deg, rgba(5, 49, 66, 0.552), rgba(6, 37, 47, 0.662)), url('../src/assets/bacground.avif') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Cards Style */
+
+.card{
+  height: 450px !important;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #1e4e75e3 !important;
+  color: white !important;
+  border: 2px solid white;
+  border-radius: 20px !important;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0px black;
+  transition: all 0.5s ease-in-out;
+}
+
+.card img{
+  height: 250px !important;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.section_btn{
+  color: white !important;
+  border: 2px solid white !important;
+  box-shadow: 0 0 10px 0px black;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.section_btn:hover{
+  color: black !important;
+  background-color: white !important;
+  transform: scale(1.1);
+}
+
+
+.section_title{
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  margin-bottom: 20px;
+}
+
+.section_hr{
+  border: 3px solid #008cff;
+  opacity: 1;
+  margin-bottom: 30px !important;
+}

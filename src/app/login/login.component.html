@@ -1,0 +1,37 @@
+<div class="container login">
+  <div class="row justify-content-center">
+    <form class="col-lg-6 col-md-8 col-sm-10 col-11" [formGroup]="form">
+      <h2 class="text-center">LogIn</h2>
+      <div class="col-12 mb-5">
+        <input type="email" class="form-control" id="email" placeholder="Email" formControlName="email">
+        <div class="error" *ngIf="f['email'].touched && f['email'].invalid">
+          <span *ngIf="f['email'].errors && f['email'].errors['required']">* Email is required</span>
+          <span *ngIf="f['email'].errors && f['email'].errors['email']">* Email is invalid</span>
+        </div>
+      </div>
+      <div class="col-12 mb-5">
+        <input type="password" class="form-control" id="password" placeholder="Password" formControlName="pass">
+        <div class="error" *ngIf="f['pass'].touched && f['pass'].invalid">
+          <span *ngIf="f['pass'].errors && f['pass'].errors['required']">Password is required</span>
+        </div>
+        <span class="forgot"><a href="">Forgot Password?</a></span>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn" [disabled]="form.invalid">Sign In</button>
+      </div>
+      <div class="or">
+        <hr class="text-light">
+        <span>OR</span>
+      </div>
+      <div class="col-12 sin_or text-center mt-5 justify-content-center">
+        <button class="btn_one"><i class="fa-brands fa-google me-2"></i>Google</button>
+        <button class="btn_two"><i class="fa-brands fa-facebook me-2"></i>Facebook</button>
+        <button class="btn_three"><i class="fa-brands fa-twitter me-2"></i>Twitter</button>
+      </div>
+      <div class="col-12 sin_up">
+        <p>Don't Have An Account ? <a (click)="register()">Sign up now</a></p>
+      </div>
+    </form>
+  </div>
+
+</div>

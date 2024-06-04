@@ -1,0 +1,104 @@
+.register{
+  margin-top: 20px;
+}
+
+form{
+  background-color: #1e4e75e7;
+  padding: 20px 40px ;
+  border-radius: 10px;
+  border: 2px solid rgb(1, 160, 253);
+}
+
+form h2{
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px black;
+}
+
+form input{
+  /* margin-bottom: 40px; */
+  padding: 10px;
+  font-weight: bold;
+}
+
+form .btn{
+  display: block;
+  margin: auto;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 10px 35px;
+  background-color: #1e4e75e7;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 0px 10px 0 black;
+}
+
+form .btn:hover{
+  background-color: #1e4e75e7;
+  transform: scale(1.1);
+  background-color: #0a66b2e7;
+}
+
+form .or{
+  margin-top:40px;
+  position: relative;
+}
+
+form .or span{
+  position: absolute;
+  font-size: 15px;
+  color: #068fffe7;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  left: 50%;
+  top: -15px;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+
+form .sin_or button{
+  width: 170px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+form .sin_or .btn_one{
+  background-color: rgb(205, 10, 10);
+}
+
+form .sin_or .btn_two{
+  background-color: #0a66b2e7;
+}
+
+form .sin_or .btn_three{
+  background-color: #0b98eae7;
+}
+
+form .sin_up{
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+form .sin_up a{
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+form .sin_up a:hover{
+  color: #008cffe7;
+}
+
+form .error{
+  color: red;
+}

@@ -1,0 +1,121 @@
+footer{
+  background-color: #1e4e75e7;
+  padding-top: 30px;
+}
+
+footer .social{
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+footer .social a{
+  padding: 10px 0;
+  font-size: 25px;
+  color: white;
+  margin-right: 15px;
+}
+
+footer .social a i{
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+footer .social a i:hover{
+  background-color: white;
+}
+
+footer .social a:nth-child(1) i:hover{
+  color: rgb(5, 5, 188);
+
+}
+
+footer .social a:nth-child(2) i:hover{
+  color: #2a96ef;
+}
+
+footer .social a:nth-child(3) i:hover{
+  color: #ff0000;
+}
+
+footer .social a:nth-child(4) i:hover{
+  color: #0077b5;
+}
+
+footer .social a:nth-child(5) i:hover{
+  color: #ff0000;
+}
+
+footer h5{
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+footer h5::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #05a0f3;
+  margin: 10px 0;
+}
+
+footer .one::after{
+  width: 120px;
+}
+
+footer .two::after{
+  width: 80px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+footer ul li{
+  padding-left: 0;
+}
+
+footer ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1.5px;
+  line-height: 40px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+footer ul li a::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #01a6ff;
+  left: 0;
+  bottom: -4px;
+  position: absolute;
+}
+
+footer ul li a:hover::after{
+  animation: underLine 0.5s forwards;
+}
+
+@keyframes underLine{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+footer ul li a:hover{
+  color: #03a7ff;
+  transform: translateX(10px);
+}
+
+footer ul li i{
+  color: #05a0f3;
+}

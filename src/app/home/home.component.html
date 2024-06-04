@@ -1,0 +1,70 @@
+<header>
+  <div class="continer">
+    <div class="row justify-content-center">
+      <div class="col-sm-10 col-lg-6 col-md-8 col-12 ">
+        <ngx-typed-js class="h-25" [strings]="['Hello In world Of Coding', 'Learning Programming Now']"
+        [typeSpeed]="200" [loop]="true" [backSpeed]="100" [shuffle]="true">
+            <span class="typing">Coding Website</span>
+        </ngx-typed-js>
+        <p>learn courses , do projects and  start Your journey To Be Big Developer </p>
+        <button class="btn btn-danger">Learn More</button>
+        <button class="btn btn-success">Courses</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="search">
+  <div class="container one">
+    <h2 class="text-center">Find Your Course. Apply Hurry Up!</h2>
+    <div class="row justify-content-center align-items-center">
+
+        <div class="col-sm-6 col-md-7 col-lg-6 col-6">
+          <input type="text" id="search" placeholder="Enter Course Name">
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-2 col-6">
+        <button class="btn">Search course</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gneral_courses">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h2 class="section_title">Our Upcoming Courses</h2>
+      <hr class="section_hr">
+      <div class="col-sm-8 col-md-5 col-lg-3 col-10" *ngFor="let course of courses">
+        <div class="card">
+        <img src="'{{course.src}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{course.title}}</h5><hr>
+          <p class="card-text">{{course.description}}</p><hr>
+          <a class="btn section_btn" (click)="golearn()">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="edu">
+  <div class="container">
+    <div class="row">
+      <h2>Education Is The Backbone Of a Nation Expansion Of Idea</h2>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="../../assets/icon 2.jpg" alt="">
+      </div>
+      <div class="col">
+        <h4>We Are Professional And Expert</h4>
+        <div class="prograss">
+          <span class="prograss_titel">web Development</span>
+          <span class="prograss_count">90%</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
