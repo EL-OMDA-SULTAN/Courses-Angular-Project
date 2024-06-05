@@ -8,6 +8,7 @@ import { WebcoursesComponent } from './webcourses/webcourses.component';
 import { MobilecoursesComponent } from './mobilecourses/mobilecourses.component';
 import { AicoursesComponent } from './aicourses/aicourses.component';
 import { CoursedetialsComponent } from './coursedetials/coursedetials.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'home',pathMatch:'full'},
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path:'mobilecourses',component:MobilecoursesComponent},
   {path:'aicourses',component:AicoursesComponent},
   {path:'gamingcourses',component:GamingcoursesComponent},
-  {path:'coursedetials',component:CoursedetialsComponent}
+  {path:'coursedetials',component:CoursedetialsComponent},
+  {path:'about',component:AboutComponent}
 ];
 
 @NgModule({

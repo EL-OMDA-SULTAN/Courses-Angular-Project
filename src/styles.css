@@ -29,6 +29,9 @@ body{
 
 .card img{
   height: 250px !important;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
 }
 
 .card:hover{
@@ -59,7 +62,7 @@ body{
 }
 
 .section_hr{
-  border: 3px solid #008cff;
+  border: 3px solid #008cffc8;
   opacity: 1;
   margin-bottom: 30px !important;
 }

@@ -14,6 +14,8 @@ import { AicoursesComponent } from './aicourses/aicourses.component';
 import { GamingcoursesComponent } from './gamingcourses/gamingcourses.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { CoursedetialsComponent } from './coursedetials/coursedetials.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CoursedetialsComponent } from './coursedetials/coursedetials.component'
     MobilecoursesComponent,
     AicoursesComponent,
     GamingcoursesComponent,
-    CoursedetialsComponent
+    CoursedetialsComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,7 @@
 header{
-margin: 50px 0;
+margin: 50px 0 100px;
+background-color: #1e4e753a;
+padding: 50px 0;
 }
 
 header h1{
@@ -9,4 +11,416 @@ header h1{
   font-weight: 600;
   letter-spacing: 1.5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_det{
+  padding: 20px 0;
+  color: white;
+}
+
+.course_det hr{
+  background-color: white;
+  border: 1px solid white;
+  opacity: 0.7;
+}
+
+.course_det .course_img img{
+  width: 100%;
+}
+.course_det .course_info h4{
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(255, 255, 255, 0.821);
+}
+
+.course_det .course_info_det span{
+  margin-right: 8px;
+}
+
+.course_det .course_info .course_info_det {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+  background-color: #0b4371e2;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 black;
+  font-size: 18px;
+
+}
+
+.course_det .course_info .course_info_det .info_titel{
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.821);
+}
+
+.course_det .course_info .buy_btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.course_det .det_info{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.715);
+  padding: 10px 5px;
+}
+
+.course_det .det_info .dep{
+  background-color: #1e4e75f3;
+  margin: 6px;
+  padding: 3px;
+  box-shadow: 0 0 6px 0 black;
+  width: 97%;
+}
+.course_det .det_info h6{
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(255, 255, 255, 0.695);
+}
+
+.course_det .det_info p{
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.905);
+}
+
+.course_det .det_info p i{
+  margin-right: 8px;
+
+}
+
+.course_det .det_info p .fa-user-graduate{
+  color: black;
+}
+
+.course_det .det_info p .fa-codepen{
+  color: rgb(255, 1, 1);
+}
+
+.course_det .det_info p .fa-star{
+  color: yellow;
+}
+
+.course_det .det_info p .fa-dollar-sign{
+  color: rgb(7, 241, 7);
+}
+
+.course_det .serch{
+  background-color: rgba(255, 255, 255, 0.708);
+}
+
+.course_det .serch .serch_course{
+  margin: 5px;
+  background-color: #1e4e75e7;
+  padding: 15px 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  width: 97%;
+  border-radius: 5px;
+}
+
+.course_det .serch .serch_course input{
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+  margin-bottom: 10px;
+}
+
+.course_det .serch .serch_course button{
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+}
+
+.course_det .serch .search_links{
+  background-color: #1e4e75f3;
+  margin: 5px;
+  width: 97%;
+  border-radius: 5px;
+}
+
+.course_det .serch .search_links h4{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.course_det .serch .search_links p{
+  display: flex;
+  justify-content: space-between;
+}
+.course_det .serch .search_links p a{
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.course_det .serch .search_links p a:hover{
+  color: #0188f7f3;
+}
+
+.course_det .serch .search_links p span{
+  font-weight: 600;
+  color: #085fa7f3;
+  background-color: white;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.course_det .related_course{
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.733);
+  color: white;
+}
+
+.course_det .related_course h4{
+  padding: 20px 0;
+  margin: 5px;
+  width: 97%;
+  text-align: center;
+  font-weight: 600;
+  background-color: #1e4e75f3;
+}
+
+.course_det .related_course .mor_course{
+  background-color: #1e4e75f3;
+  margin: 5px;
+  width: 97%;
+  border-radius: 5px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.course_det .related_course .mor_course img{
+  width: 40px;
+  height: 40px !important;
+  height: 300px;
+}
+
+.course_det .related_course .mor_course a{
+  display: inline-block;
+  margin-left: 10px ;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.course_det .related_course .mor_course a:hover{
+  color: #0188f7f3;
+}
+
+.course_det .more_courses{
+  background-image: linear-gradient(0deg, rgba(5, 49, 66, 0.552), rgba(6, 37, 47, 0.662)) ,url('../../assets/more courses.jpg');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 3px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.course_det .more_courses h4{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.course_det .more_courses a{
+  cursor: pointer;
+  margin: auto;
+  border-radius: 5px;
+  padding:10px 0;
+  color: white;
+  text-align: center;
+  background-color: #1e4e75f3;
+  width: 80%;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.course_det .more_courses a:hover{
+  background-color: white;
+  color: black;
+}
+
+.course_det .description{
+  margin: 30px 0;
+  background-color: rgba(255, 255, 255, 0.733);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course_det .description h3{
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 600;
+  background-color: #1e4e75f3;
+  margin: 0;
+}
+
+.course_det .description p{
+  margin: 0;
+  padding: 10px 5px 20px ;
+  line-height: 30px;
+  text-align: center;
+  background-color: #1e4e75f3;
+}
+
+.course_det .lecturer_det{
+  background-color: #1e4e75f3;
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+.course_det .lecturer_det .lecturer_det_img {
+  background-image: url('../../assets/Elomda Sultan.jpeg');
+  background-size:cover ;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border:2px solid white ;
+  margin-bottom: 10px;
+}
+
+.course_det .lecturer_det .lecturer_det_info h4{
+  margin-bottom: 20px;
+}
+
+.course_det .lecturer_det .lecturer_det_info p{
+  margin-bottom: 20px;
+}
+.course_det .lecturer_det .lecturer_det_info .social_icon{
+  text-align: center;
+}
+.course_det .lecturer_det .lecturer_det_info .social_icon i{
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.course_det .lecturer_det h3{
+  text-align: center;
+  font-weight: 600;
+  background-color: #1e4e75f3;
+  /* margin: 0; */
+  margin-bottom: 20px;
+}
+
+.course_det .lecturer_det .lecturer_det_info .social_icon i:nth-child(1):hover{
+  color: rgb(2, 2, 207);
+  background-color: white;
+}
+
+.course_det .lecturer_det .lecturer_det_info .social_icon i:nth-child(2):hover{
+  color: rgb(8, 174, 234);
+  background-color: white;
+}
+
+.course_det .lecturer_det .lecturer_det_info .social_icon i:nth-child(3):hover{
+  color: rgb(8, 8, 227);
+  background-color: white;
+}
+
+.course_det .lecturer_det .lecturer_det_info .social_icon i:nth-child(4):hover{
+  color: rgb(227, 8, 132);
+  background-color: white;
+}
+.add{
+  /* background-color: #1e4e758c; */
+  margin-bottom:50px ;
+  padding: 20px 0;
+}
+.add .add_btn , .add .buy_btn{
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: #1e4e75f3;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  margin:10px 0;
+}
+
+
+.add i{
+  margin-left: 10px;
+}
+
+.add .add_btn:hover , .add .buy_btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.add .add_btn:hover i{
+  color: red;
+}
+
+.add .buy_btn:hover i{
+  color: rgb(182, 182, 6);
+}
+
+.related form{
+  color: white;
+  background-color: #1e4e75c5;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.related form h2{
+  text-align: center;
+  font-weight: 600;
+  padding: 20px 0;
+  text-shadow: 0 0 10px black;
+}
+
+.related form .form-label{
+  margin-right:20px ;
+  font-size: 18px;
+}
+
+.related form .rat i{
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 18px;
+  color: yellow;
+}
+
+.related form .submit_btn{
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 10px 35px;
+  margin-top: 10px;
+  background-color: #1e4e75f3;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.related form .submit_btn:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.related .rev_img {
+  background-image: url('../../assets/review.jpg');
+  background-size: cover;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 450px;
 }

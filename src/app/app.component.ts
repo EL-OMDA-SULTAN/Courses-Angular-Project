@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'electronic';
+
+  scrollToTop() {
+    window.scrollTo(0, 0);
+  }
 }

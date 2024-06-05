@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class WebcoursesComponent {
     coursesfront=[{src:'../../assets/web front c 1.png',title:'HTML',description:'Learn HTML',},
-    {src:'../../assets/web front c 2.jpg',title:'CSS',description:'Learn CSS',},
+    {src:'../../assets/web front c 2.png',title:'CSS',description:'Learn CSS',},
     {src:'../../assets/web front c 3.jpg',title:'JavaScript',description:'Learn JavaScript',},
     {src:'../../assets/web front c 4.png',title:'Bootstrap',description:'Learn Bootstrap',}];
 

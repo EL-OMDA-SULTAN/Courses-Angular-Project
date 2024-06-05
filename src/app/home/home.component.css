@@ -1,5 +1,5 @@
 header{
-  height: 50vh ;
+  height: 40vh ;
   color: white;
   text-align: center;
 }
@@ -52,17 +52,16 @@ header .btn:hover{
 }
 
 .search {
-height: 300px;
-margin-bottom: 50px;
+margin-bottom: 80px;
 }
 .search .container{
   background-color: #1e4e75ba;
-  height: 100%;
   border-radius: 20px ;
+  padding-bottom: 100px;
 }
 
 .search .container h2{
-  padding-top: 50px;
+  padding-top: 30px;
   margin-bottom: 40px;
   color: white;
   font-size: 40px;
@@ -104,4 +103,130 @@ margin-bottom: 50px;
 .search .container button:hover{
   background-color: white;
   color: black;
+}
+
+.edu{
+  background-color: #1e4e75;
+  color: white;
+  padding: 50px 0;
+  margin: 100px 0;
+}
+
+.edu h2{
+  font-size: 50px;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.edu .btn{
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  margin-right: 20px;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.edu .btn2{
+background-color: #1e4e75e7;
+color: white;
+}
+
+.edu .btn1{
+  background-color: white;
+  color: black;
+}
+
+.edu .btn1:hover{
+  background-color: #1e4e75e7;
+  color: white;
+}
+
+.edu .btn2:hover{
+  background-color: white;
+  color: black;
+}
+.prograss{
+  margin: 50px 0;
+}
+
+.prograss .row{
+  /* background-color: rgba(255, 255, 255, 0.749); */
+  padding: 20px 10px;
+
+}
+
+.prograss .progress_col{
+  padding: 50px;
+  background-color: #1e4e75ea;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0px black;
+}
+
+.prograss .progress_col h4{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.prograss .progress_col p{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.prograss .progress_col .prograss_item{
+  margin: 40px 0 ;
+}
+
+.prograss .progress_col .prograss_item span{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: 0 0 10px black;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.prograss .progress_col .prograss_item .prograss_count{
+  float: right;
+}
+
+.prograss .progress_col .prograss_item .progress{
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.prograss .progress_col .prograss_item .one .progress-bar{
+  background-color: rgb(186, 3, 3);
+}
+
+.prograss .progress_col .prograss_item .two .progress-bar{
+  background-color: rgb(255, 106, 0);
+}
+
+.prograss .progress_col .prograss_item .three .progress-bar{
+  background-color: rgb(5, 196, 217);
+}
+
+.prograss .progress_col .prograss_item .four .progress-bar{
+  background-color: rgb(234, 211, 6);
 }
